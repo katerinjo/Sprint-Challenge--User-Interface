@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML describes not just the visual information needed to make the page look right, but also various other kinds of information that make understanding the document easier for humans (generally developers) and machines (generally text-to-speech for the visually impaired). The exact meaning of semantic tags and the ways that they interact is very complicated, much like grammars in natural languages. Semantic HTML, like English, has clear examples of incorrect use, clear examples of correct use, and lots of weird and complex examples that might be somewhere in between or disagreed about by different people. Like learning a human language, the best way to pick up the nuance is lots of exposure.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+`display: block;` stacks new items top-to-bottom, whereas `display:inline;` displays an item like text, going left-to-right and wrapping. Also, the latter will not let you specify height and width properties.
 
 3. What are the 4 areas of the box model?
 
+From inside to outside, the areas are: content, padding, border, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+That specifies location along the cross-axis, the direction perpendicular to the main-axis specified by `flex-direction`.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows you to revert a project to a previous state, so you can experiment without worrying about losing something important about the way things were. It also helps manage the combination of different modifications.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
