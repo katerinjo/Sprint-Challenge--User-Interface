@@ -135,11 +135,22 @@ header nav a {
 }
 
 .top-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content.normal {
+    padding: 8px;
+}
+
+.top-conent.normal h2 {
+    display: inline;
+}
+
+.top-content.panels {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
