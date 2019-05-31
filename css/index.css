@@ -66,17 +66,87 @@ p {
     line-height: 1.4;
 }
 
+header {
+    margin-bottom: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+header nav div {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle-content .boxes .box.box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box-10 {
+    background: dodgerblue;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
 .top-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.normal {
+    padding: 15px;
+}
+
+.top-content.panels {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -88,6 +158,32 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.panels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.panel {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.panel h2 {
+    margin-top: 10px;
+}
+
+button {
+    margin: 15px 0;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    color: black;
 }
 
 .middle-content h2 {
