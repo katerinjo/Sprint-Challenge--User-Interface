@@ -161,9 +161,16 @@ header nav a {
 
 .panel {
     width: 370px;
-    padding-bottom: 15px;
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
+}
+
+.panel h2 {
+    margin-top: 10px;
+}
+
+button {
+    margin: 15px 0; 
 }
 
 .middle-content h2 {
