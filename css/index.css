@@ -139,12 +139,8 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
-.top-content.normal {
-    padding: 8px;
-}
-
-.top-conent.normal h2 {
-    display: inline;
+.normal {
+    padding: 15px;
 }
 
 .top-content.panels {
